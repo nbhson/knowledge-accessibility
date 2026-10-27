@@ -89,3 +89,78 @@ POUR không phải là quy tắc cứng nhắc mà là cách tiếp cận để 
 
 *Lưu ý: WCAG 3.0 đang trong giai đoạn thử nghiệm và dự kiến sẽ trở thành tiêu chuẩn chính thức trong vài năm tới.*
 
+---
+
+## WCAG 2.2 — Hiệu lực từ 10/2023
+
+9 Success Criteria mới so với 2.1:
+
+| SC | Tên | Mức | Mô tả |
+|----|-----|-----|-------|
+| 2.4.11 | Focus Not Obscured | AA | Element focus không bị che toàn bộ |
+| 2.4.12 | Focus Not Obscured (Enhanced) | AAA | Element focus không bị che gì cả |
+| 2.4.13 | Focus Appearance | AAA | Vùng focus đủ lớn, tương phản rõ |
+| 2.5.7 | Dragging Movements | AA | Thao tác kéo phải có alternative |
+| 2.5.8 | Target Size (Minimum) | AA | Target ≥ 24×24 CSS px |
+| 3.2.6 | Consistent Help | A | Help mechanism cùng vị trí trên mọi trang |
+| 3.3.7 | Redundant Entry | A | Không hỏi lại thông tin đã nhập |
+| 3.3.8 | Accessible Authentication | AA | Không dùng cognitive test để login |
+| 3.3.9 | Accessible Authentication (Enhanced) | AAA | Không yêu cầu nhận diện đối tượng |
+
+> ⚠️ **Lưu ý:** WCAG 2.2 đặc biệt nhấn mạnh vào khả năng tiếp cận cho người khuyết tật nhận thức (ADHD, tự kỷ, dementia, khó đọc).
+
+Ref: https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/
+
+## EAA — EU Accessibility Act (Hiệu lực 28/6/2025)
+
+EAA (EU Directive 2019/882) chính thức có hiệu lực từ **28/6/2025** tại tất cả 27 quốc gia EU.
+
+**Yêu cầu tuân thủ cho:** thương mại điện tử (e-commerce), ngân hàng, e-book, ứng dụng di động, ATM, điện thoại thông minh, tivi thông minh, dịch vụ thông tin liên lạc điện tử (ECS).
+
+**Không tuân thủ = vi phạm pháp luật EU**, có thể bị phạt tiền hoặc buộc rút sản phẩm khỏi thị trường. Mỗi quốc gia tự quy định mức phạt cụ thể.
+
+**Quy định riêng của một số quốc gia:**
+- Hà Lan: ACM giám sát tuân thủ từ 28/6/2025 cho e-commerce và ECS
+- Ireland: ComReg giám sát ECS, CCPC giám sát sản phẩm và e-commerce
+- Phần Lan: Traficom giám sát sản phẩm và dịch vụ
+
+Ref: https://ec.europa.eu/social/main.jsp?catId=1202 | https://eur-lex.europa.eu/EN/legal-content/summary/accessibility-of-products-and-services.html
+
+---
+
+## WCAG 3.0 Working Draft — Theo dõi (chưa enforce, 10/2026)
+
+> ⚠️ **WCAG 3.0 vẫn là Working Draft** — chưa có hiệu lực. **WCAG 2.2 vẫn là chuẩn tuân thủ chính thức.** Khuyến nghị: tiếp tục tuân thủ WCAG 2.2 AA đầy đủ, đồng thời theo dõi WCAG 3.0 development để chuẩn bị tương lai.
+
+WCAG 3.0 Working Draft được cập nhật **September 2026** (W3C, 10/9/2026), đánh dấu bước tiến lớn về conformance model.
+
+### Thay đổi lớn so với WCAG 2.x
+
+| Khía cạnh | WCAG 2.x | WCAG 3.0 |
+|-----------|----------|----------|
+| **Conformance** | Pass/Fail (A / AA / AAA) | 6 reporting tiers + impact-based tags |
+| **Cấu trúc** | 13-17 Guidelines | Functional categories (Perceivable, Operable...) |
+| **Mức độ** | Fixed levels (A→AA→AAA) | Gradient: bronze/silver/gold/platinum/steel/titanium |
+| **Đo lường** | Manual sampling | Machine-actionable assertions |
+
+### 6 Reporting Tiers mới
+- **Titanium**: gần như hoàn hảo, ≤0.01 failures per page
+- **Platinum**: enterprise-grade, ≤0.05 failures/page
+- **Gold**: cao nhất practical, ≤0.25 failures/page
+- **Silver**: equivalent WCAG 2.1 AA, ≤0.5 failures/page
+- **Bronze**: equivalent WCAG 2.1 A, ≤1 failure/page
+- **Steel**: baseline, ≥50% pages meet critical requirements
+
+### Các features mới đáng chú ý
+- **Impact-based requirement tags** thay vì level cứng nhắc — cùng 1 requirement có thể "crash" (fatal) hoặc "inconvenience" (minor) tùy ngữ cảnh
+- **Automated testing** được khuyến khích nhiều hơn
+- Áp dụng cho: websites, native apps, e-books, authoring tools, authoring tool outputs
+
+### Timeline dự kiến
+- Working Draft tiếp tục được cập nhật (latest: September 2026)
+- Không có enforcement date cố định
+- W3C đã xác nhận **không deprecated WCAG 2.x** khi 3.0 ra mắt
+- ADA Title II (US): enforcement vẫn dựa trên WCAG 2.1 AA
+
+Ref: https://www.w3.org/WAI/news/2026-09-10/wcag3/ | https://www.w3.org/TR/wcag-3.0/
+
