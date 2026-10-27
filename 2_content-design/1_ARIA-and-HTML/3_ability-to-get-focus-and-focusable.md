@@ -1,5 +1,9 @@
 # Khả năng lấy nét và kích hoạt bằng bàn phím (Nguyên tắc 3 và 4)
 
+> ⚠️ **Cập nhật 10/2026:** Kiến thức nền trong file này đúng. Cần lưu ý WCAG 2.2 SC 2.4.11 (Focus Not Obscured - AA) và SC 2.4.13 (Focus Appearance - AAA) về yêu cầu focus indicator rõ ràng, đủ lớn.
+
+---
+
 ## 🎯 Tổng quan
 
 Một phần tử accessible cần có **CẢ HAI** đặc tính:

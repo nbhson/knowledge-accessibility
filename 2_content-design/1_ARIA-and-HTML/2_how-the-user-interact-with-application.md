@@ -1,5 +1,9 @@
 # Cách người dùng tương tác với ứng dụng
 
+> ⚠️ **Cập nhật 10/2026:** Kiến thức nền trong file này đúng. Tuy nhiên cần đối chiếu với WCAG 2.2 (đặc biệt criteria 2.5.7 về dragging movements và 2.5.8 về target size ≥ 24×24 CSS px) để đảm bảo đầy đủ.
+
+---
+
 ## 🗺️ POUR + ARIA: Bản đồ và Công cụ
 
 **POUR** = Bản đồ định hướng  

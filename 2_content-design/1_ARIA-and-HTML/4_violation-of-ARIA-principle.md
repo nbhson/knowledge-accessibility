@@ -1,5 +1,9 @@
 # Vi phạm nguyên tắc ARIA
 
+> ⚠️ **Cập nhật 10/2026:** Kiến thức nền trong file này đúng. Lưu ý thêm: aria-hidden trên focusable element vi phạm cả WCAG 2.2 SC 2.4.11 (Focus Not Obscured) và nguyên tắc ARIA số 4.
+
+---
+
 ## 🚨 Nguyên tắc vàng
 
 > **"No ARIA is better than bad ARIA"**

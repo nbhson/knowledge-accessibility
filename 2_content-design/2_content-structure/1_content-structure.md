@@ -312,6 +312,12 @@ Với bảng phức tạp, có thể cần:
 
 ---
 
+> ⚠️ **Cập nhật 10/2026:** Kiến thức nền trong file này đúng. Lưu ý thêm WCAG 2.2:
+> - SC 2.4.11/2.4.12 (Focus Not Obscured): Landmarks và section cần đảm bảo không che khuất element đang focus.
+> - SC 2.5.8 (Target Size Minimum): Buttons và interactive elements cần ≥ 24×24 CSS px.
+
+---
+
 ## 📚 Tài liệu tham khảo
 
 - **Page Structure** [Page Structure](https://www.w3.org/WAI/tutorials/page-structure/)

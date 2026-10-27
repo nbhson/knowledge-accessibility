@@ -263,6 +263,14 @@ WAI đã phát triển 5 quy tắc giúp quyết định khi nào và cách sử
 
 ---
 
+## ARIA 1.3 — Cập nhật gần đây
+
+ARIA 1.3 bổ sung roles và properties cho AI-generated content, widget patterns mới, và `aria-description` được hỗ trợ rộng rãi hơn. Vẫn tuân thủ nguyên tắc #1: không dùng ARIA nếu HTML semantic đã đủ.
+
+Ref: https://www.w3.org/TR/wai-aria-1.3/
+
+---
+
 ## 📚 Tài liệu tham khảo
 
 - **Article** [](https://web.dev/learn/accessibility/aria-html)

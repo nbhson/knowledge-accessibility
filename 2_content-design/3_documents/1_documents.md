@@ -130,4 +130,6 @@ Bên cạnh cấu trúc, có nhiều yếu tố HTML cần cân nhắc để đ�
 - HTML `<title>`: MDN, W3C
 - Ngôn ngữ (`lang`): MDN, W3C i18n
 - iFrame accessibility: W3C, WebAIM
+- WCAG 2.2 SC 3.1.1 (Language of Page): `<html lang>` là yêu cầu A
+- WCAG 2.2 SC 2.4.11 (Focus Not Obscured): Modal/iframe không được che focus indicator
 
